@@ -1,0 +1,244 @@
+ body{
+            background-color: #61eeb8;
+        }
+        .mary{color: #416fa6;
+            font-size: 50px;
+            text-align: center;
+            text-decoration: underline;
+            text-decoration-color: #eeb2e7;
+            border: unset;
+            border-radius: 10px;
+        }
+
+
+        .jane{
+            width:100px;
+            height:50px;
+            background-color: #27138c;
+            color: #83808c;
+        }
+        .susan{
+            width:100px;
+            height:50px;
+            background-color: #8c131a;
+            color: #ffffff;
+
+        }
+        .edna{
+            width:100px;
+            height:50px;
+            background-color: #d54e56;
+            color: #030e1a;
+
+        }
+        .fally{
+            width:100px;
+            cursor: pointer;
+            background-color: #646161;
+            color: #76ffe0;
+
+        }
+        .dan{
+             width:100px;
+            cursor: pointer;
+            background-color: #032042;
+            color: #03100e;
+
+        }
+        .diana{
+            height: 30px;
+            cursor: pointer;
+            background-color: #e83be3;
+            color: #e00b0b;
+
+        }
+
+        .allan{
+            height: 100px;
+            cursor: pointer;
+            background-color: #fafbfd;
+            color: #694143;
+        }
+        .modesta{
+
+            cursor: pointer;
+            background-color: #2564e1;
+            color: #6b266b;
+
+        }
+        .osoro{
+            width:100px;
+            cursor: pointer;
+            background-color: #1e3944;
+            color: #c72a33;
+        }
+
+        button:hover {
+            cursor: pointer;
+            background-color: #2a8c16;
+            color: #8c131a;
+        }
+
+
+            hr{
+                height: 4px;
+                background-color: aqua;
+                border: unset;
+            }
+
+            h3{
+                color: #8c0715;
+            }
+            p{
+                color: #030e1a;
+            }
+table, th, td{
+    border: 2px solid;
+    border-collapse: collapse;
+}
+table{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.premium{
+    color: #fafbfd;
+    list-style-type: lower-alpha;
+}
+.pics{
+    width:24.5% ;
+    height: 250px;
+}
+
+.my-form{
+    width: 45%;
+    margin: auto;
+}
+
+.my-input{
+    width: 100% ;
+    height: 30px;
+    border-radius: 10px;
+    border: unset;
+    background-color: #ffffff;
+    color: #031121;
+    padding-left: 16px;
+
+    .my-btn{
+        width: 50%;
+        margin-left: 25%;
+        margin-right: 25%;
+        border: unset;
+        height: 30px;
+        background-color: #2a8c16;
+        border-radius: 10px;
+        color: #e00b0b;
+        cursor: pointer;
+
+    }
+
+}
+.top{
+    height: 30vh;
+    background-color: #416fa6;
+    display: flex;
+}
+.top-left{
+    width: 50%;
+    height: 30vh;
+    background-color: #2a8c16;
+}
+.top-right{
+    width: 50%;
+    height: 30vh;
+    background-color: #6b266b;
+}
+.bottom{
+    height: 30vh;
+    background-color: #2a8c16;
+    display: flex;
+}
+.bottoma{
+    width: 25%;
+    height: 30vh;
+    background-color: #65ff21;
+}
+.bottomb{
+    width: 25%;
+    height: 30vh;
+    background-color: rgba(66,25,41,0.91);
+}
+.bottomc{
+    width: 25%;
+    height: 30vh;
+    background-color: #19e6ff;
+}
+.bottomd{
+    width: 33%;
+    height: 30vh;
+    background-color: rgba(252,255,250,0.91);
+}
+.middle{
+    height: 30vh;
+    background-color: white;
+    display: flex;
+}
+.middle-left{
+    width: 34%;
+    height: 30vh;
+    background-color: #8c131a;
+
+}
+.middle-right{
+    width: 33%;
+    height: 30vh;
+    background-color: rgba(252, 255, 250, 0.91);
+
+}
+.middle-center{
+    width: 33%;
+    height: 30vh;
+    background-color: #d54e56;
+}
+.console{
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #c72a33;
+
+}
+.console h1{
+    color: white;
+    font-size: 50px;
+}
+.content{
+    min-height: 60vh;
+    display: flex;
+}
+.content-left{
+    width: 30%;
+    background-color: white;
+}
+.content-left ol{
+    list-style-type: none;
+    padding-top: 20px;
+}
+.content-right{
+    width: 70%;
+    background-color: #1e3944;
+}
+.content-right h1,p{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.footer{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #19e6ff;
+}
+.footer h5{
+    color: white;
+}

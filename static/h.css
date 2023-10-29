@@ -1,0 +1,38 @@
+.hewlet {
+        display: flex;
+        align-items: center;
+}
+
+ .rover {
+        display: flex;
+        align-items: center;
+        flex: 1;
+}
+
+.toyota {
+        flex: 1;
+        padding: 20px;10px
+}
+
+.rover img{
+        max-width: 100%;
+        height: 40vh;
+        margin-left: 20px;
+    float: right;
+}
+.ford{
+    display: flex;
+    justify-content: space-between;
+    align-items: centre;
+    background-color: #19e6ff;
+    padding: ;
+
+}
+.ford img{
+    max-width: 30%;
+    height: auto;
+    margin: 5px;
+    border: 2px solid beige;
+}
+
+utanishow how it behaves
